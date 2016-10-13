@@ -1,32 +1,33 @@
-# TeamKE submissions to DREAM challenge
+# TeamKE submission to DREAM challenge
 
 
 ### Step 1: Install the requirements
 The main dependenicies are:
-    - numpy
-    - scipy
-    - hdf5
-    - h5py
-    - pybedtools
-    - pysam
-    - pybigwig
-    - pandas
-    - scikit-learn
-    - xgboost
-    - seaborn
+- numpy
+- scipy
+- hdf5
+- h5py
+- pybedtools
+- pysam
+- pybigwig
+- pandas
+- scikit-learn
+- xgboost
+- seaborn
+
 We are using the conda environment in our analysis, 
 which can be easily set up with requirements.yml.
 
 
 ### Step 2: Get all the required data in place
 
-This code uses the Unzipped files provided by the organizers. 
-These folders should be setup and contain the respective datasets.
-    - annotations
-    - ChIPseq
-    - code
-    - DNASE
-    - Results 
+This code uses the Unzipped files provided by the organisers. 
+These folders should be set up and contain the respective datasets.
+- annotations
+- ChIPseq
+- code
+- DNASE
+- Results 
  In addition to the provided data, the following additiona data are used.
 
 1. Motifs: Contains all motifs used in our code
@@ -42,9 +43,7 @@ These folders should be setup and contain the respective datasets.
 ## Step 3: Run the code
 
 The code can be run for the Ladder or final board as follows:
-    - python Dream_code_train.py TF-name stage: F, for final or L for ladderboard
-    - eg: python Dream_code_train.py ATF2 L
+- python Dream_code_train.py TF-name stage: F, for final or L for ladderboard
+- eg: python Dream_code_train.py ATF2 L
     
 Run without variables for details. 
-
-

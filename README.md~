@@ -1,4 +1,4 @@
-# Implementation of TeamKE submissions to DREAM challenge
+# TeamKE submission to DREAM challenge
 
 
 ### Step 1: Install the requirements
@@ -20,8 +20,8 @@ which can be easily set up with requirements.yml.
 
 ### Step 2: Get all the required data in place
 
-This code uses the Unzipped files provided by the organizers. 
-These folders should be setup and contain the respective datasets.
+This code uses the Unzipped files provided by the organisers. 
+These folders should be set up and contain the respective datasets.
     - annotations
     - ChIPseq
     - code
@@ -46,5 +46,3 @@ The code can be run for the Ladder or final board as follows:
     - eg: python Dream_code_train.py ATF2 L
     
 Run without variables for details. 
-
-
