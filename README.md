@@ -1,4 +1,4 @@
-# Implementation of TeamKE submissions to DREAM challenge
+# TeamKE submissions to DREAM challenge
 
 
 ### Step 1: Install the requirements
