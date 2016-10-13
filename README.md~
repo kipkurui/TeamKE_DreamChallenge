@@ -41,4 +41,7 @@ These folders should be setup and contain the respective datasets.
     
 ## Step 3: Run the code
 
+The code can be run for the Ladder or final board as follows:
+    python Dream_code_train.py <TF-name> <stage: F, for final or L for ladderboard>
+
 
