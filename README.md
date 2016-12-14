@@ -18,6 +18,9 @@ The main dependenicies are:
 We are using the conda environment in our analysis, 
 which can be easily set up with requirements.yml.
 
+In addition, you will neeed kcmeans clusttering from FISIM. 
+You can get it as part of [MARSTools]<https://github.com/kipkurui/MARSTools> or from [FISIM]<http://genome.ugr.es/fisim>.
+
 
 ### Step 2: Get all the required data in place
 
