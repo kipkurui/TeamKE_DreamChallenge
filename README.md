@@ -46,11 +46,12 @@ These folders should be set up and contain the individual datasets.
 ## Step 3: Run the code
 
 The code can be run for the Ladder or final board as follows:
-    ```
-    - python Dream_code_train.py TF-name stage: F, for final or L for ladderboard
-    - eg: python Dream_code_train.py ATF2 L
-    
-    ```
+
+```
+- python Dream_code_train.py TF-name stage: F, for final or L for ladderboard
+- eg: python Dream_code_train.py ATF2 L
+
+```
     
 Run without variables for details. 
 ```
