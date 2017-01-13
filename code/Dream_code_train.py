@@ -390,7 +390,7 @@ def get_top_from_fisim(cluster_key, yylist, get_no):
 
 def run_fisim_cluster(tfs):
     tomtom_raw = "%s/Motifs/%s.tomtom" % (BASE_DIR,tfs)
-    dels = get_ipython().getoutput(u'python ../../Project/MAT_server/MARST_Suite/FISIM/kcmeans.py -fileIn {tomtom_raw} -o ../Motifs/{tfs}_cluster.txt -k 20      ')
+    dels = get_ipython().getoutput(u'python FISIM/kcmeans.py -fileIn {tomtom_raw} -o ../Motifs/{tfs}_cluster.txt -k 20      ')
 
 
 def create_hdf5(tfs, col_names):
